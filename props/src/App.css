@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book {
+  width: 280px;
+  height: 150px;
+  background: lightcyan;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.book-image {
+  width: 100px;
+  height: 100px;
+  background: #000;
+}
+
+.book-info {
+  font-weight: 600;
+  padding: 10px;
+  line-height: 1.1;
+}
+button {
+  margin-top: 5px;
+  color: blueviolet;
+  font-weight: bold;
+}
